@@ -58,7 +58,7 @@ function OnBoard(props) {
           {
             //Use this to change the image on the left
           }
-          <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+          <div className={page===0?"d-none d-md-flex col-md-4 col-lg-6 bg-image":page===1?"d-none d-md-flex col-md-4 col-lg-6 onb-image-one":page===2?"d-none d-md-flex col-md-4 col-lg-6 onb-image-two":"d-none d-md-flex col-md-4 col-lg-6 bg-image"}></div>
           <div
             className="col-md-8 col-lg-6"
             style={{ backgroundColor: "rgb(30,30,30)" }}
