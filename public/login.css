@@ -38,6 +38,22 @@
     background-position: center;
   }
   
+  .onb-image-one {
+    /* background-image: url("../img/topography.svg"); */
+    background-image: url("../img/gif1.JPG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+  }
+
+  .onb-image-two {
+    /* background-image: url("../img/topography.svg"); */
+    background-image: url("../img/gif4.JPG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+  }
+
   .login-heading {
     font-weight: 800;
     font-family: "Open Sans";
